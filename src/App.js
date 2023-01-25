@@ -1,5 +1,5 @@
 import React, { useState } from 'react';  
-//import './App.css';
+import "./App.css"
 import LoginForm from './components/Access/LoginForm';
 import UserApi from './components/users/users';
 
@@ -47,9 +47,9 @@ function App() {
   return (
     <div className="App">
     {(user.email != "") ? (
-      <div className='WelcomeLogin'>
-        <h2>Bienvenidos, <span>{user.name}</span></h2>
-        <button type="">LOGOUT</button>
+      <div className='WelcomeLogin CardQ'>
+        <h2>Bienvenido, <span>{user.name}</span></h2><br/>
+        <button type="" className='btn1'>LOGOUT</button>
         <UserApi />
         
       </div>

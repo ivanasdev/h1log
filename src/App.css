@@ -1,38 +1,105 @@
 .App {
   text-align: center;
+
+}
+body{
+  background-image: url("./components/assets/img/hback.jpg");
+  backdrop-filter: blur(19px) saturate(135%);
+  -webkit-backdrop-filter: blur(39px) saturate(475%);
+  background-color: rgba(169, 169, 211, 0);
+
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card{
+  border-color: rgb(0, 0, 0);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*MAIN CARD*/
+.Cardmain{
+  margin-top: 50px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+  backdrop-filter: blur(19px) saturate(175%);
+  -webkit-backdrop-filter: blur(19px) saturate(175%);
+  background-color: rgba(169, 169, 211, 0);
+  border-radius: 12px;
+  color: antiquewhite;
+  border-radius: 12px;
+  font-size: 30px;
+  padding: 9px;
+  margin: 12px;
+
+
+}
+.inputlogin{
+   
+  backdrop-filter: blur(19px) saturate(725%);
+  -webkit-backdrop-filter: blur(19px) saturate(175%);
+  background-color: rgba(169, 169, 211, 0);
+
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  margin-top: 6px;
+  font-size: 30px;
+  color: aliceblue;
+
+}
+.inputlogin:hover{
+ 
+  backdrop-filter: blur(19px) saturate(725%);
+  -webkit-backdrop-filter: blur(19px) saturate(175%);
+  background-color: rgba(169, 211, 209, 0.664);
+
+  border: 1px solid rgba(255, 255, 255, 0.125);
   color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.CardQ{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  backdrop-filter: blur(19px) saturate(175%);
+  -webkit-backdrop-filter: blur(19px) saturate(175%);
+  background-color: rgba(255, 255, 255, 0.425);
+  border-radius: 12px;
+  color: rgb(0, 0, 0);
+  border-radius: 12px;
+  font-size: 30px;
+  padding: 9px;
+  margin: 12px;
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.CardQ:hover{
+  background-color: rgba(0, 255, 255, 0.418);
+
+}
+
+.btn1{
+  backdrop-filter: blur(19px) saturate(725%);
+  -webkit-backdrop-filter: blur(19px) saturate(175%);
+  background-color: rgba(169, 169, 211, 0);
+
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  margin-top: 6px;
+  font-size: 30px;
+  color: aliceblue;
+}
+.btn1:hover{
+ 
+  backdrop-filter: blur(19px) saturate(725%);
+  -webkit-backdrop-filter: blur(19px) saturate(175%);
+  background-color: rgba(255, 255, 255, 0.212);
+
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  color: white;
+
+
 }

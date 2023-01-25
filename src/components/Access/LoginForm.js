@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import HLogo from "../assets/img/hor.png";
 
 const LoginForm = ({Login,error}) => {
 
@@ -14,19 +15,23 @@ const LoginForm = ({Login,error}) => {
 
     return(
         <div className="LoginForm container-fluid Cardmain"> 
+                         
           
             
    
             <form className="form=label" onSubmit={submitHandler}>
+            <img src={HLogo} alt="" width="290" height="90" />
 
-                <div>
-                    <label >NAME</label>
+            <div className="mb-3 ">
+            <label className="tit1">NAME</label>
                     <input type="text"
+                    className="form-control inputlogin "
                     name="name"
                     value={details.name}
                     onChange={e => setDetails({...details,name: e.target.value})} />
                     
                 </div>
+
                 <div className="mb-3 ">
                     <label className="tit1">EMAIL</label>
 

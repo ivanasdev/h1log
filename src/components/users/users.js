@@ -19,10 +19,9 @@ const UserApi = () =>{
     },[]);
 
     return(
-        <div>
-        
-        <h1>USERS</h1>
-        <h2>Data consumida desde API BACKEND:<p> { husers }</p><br/> </h2>
+        <div className="Cardmain">
+
+        <h3>Data consumida desde API BACKEND:<p> { husers }</p><br/> </h3>
 
      
 
